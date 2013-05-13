@@ -14,7 +14,9 @@ Few examples
 -----------------
 - - -
 **Basic testings**
-
+    
+    var easyPattern = require("easyPattern");
+    
     var pattern = easyPattern("{file}.js"); 
     pattern.test("archive.zip"); // false
     pattern.test("index.js"); // true
