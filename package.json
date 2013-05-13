@@ -1,5 +1,5 @@
 {
-  "name": "EasyPattern",
+  "name": "easypattern",
   "version": "0.0.1",
   "description": "EasyPattern is a readable alternative to regular expressions",
   "main": "lib/easyPattern.js",

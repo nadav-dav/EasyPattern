@@ -1,4 +1,4 @@
-EasyPattern [![NPM version](https://badge.fury.io/js/easyPattern.png)](http://badge.fury.io/js/rekuire)
+EasyPattern [![NPM version](https://badge.fury.io/js/easypattern.png)](http://badge.fury.io/js/easypattern)
 =========
 EasyPattern is a readable alternative to regular expressions
 
