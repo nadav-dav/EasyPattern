@@ -1,0 +1,20 @@
+{
+  "name": "EasyPattern",
+  "version": "0.0.1",
+  "description": "EasyPattern is a readable alternative to regular expressions",
+  "main": "lib/easyPattern.js",
+  "scripts": {
+    "test": "jasmine-node ./test"
+  },
+  "repository": "",
+  "keywords": [
+    "EasyPattern",
+    "patterns",
+    "url",
+    "regex",
+    "regular",
+    "expression"
+  ],
+  "author": "Nadav Dav",
+  "license": "BSD"
+}
