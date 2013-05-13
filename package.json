@@ -6,7 +6,10 @@
   "scripts": {
     "test": "jasmine-node ./test"
   },
-  "repository": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nadav-dav/EasyPattern.git"
+  },
   "keywords": [
     "EasyPattern",
     "patterns",
