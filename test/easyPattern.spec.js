@@ -20,6 +20,11 @@ describe("easyPattern",function(){
             expect(pattern.match("home/hello.js")).toEqual({folder:"home",filename:"hello"});
         });
 
+        it("should return empty object if no match",function(){
+            var pattern = easyPattern("{folder}/{filename}?{params}");
+            expect(pattern.match("hello.js?p=1")).toEqual({});
+        });
+
         it("should match strings with . (dot) and ? (question mart) sights",function(){
             var pattern = easyPattern("{folder}/{filename}?{params}");
             expect(pattern.match("home/hello.js?p=1")).toEqual({folder:"home",filename:"hello.js","params":"p=1"});
